@@ -82,6 +82,35 @@ Kondisi ketidakpastian dicirikan dengan informasi yang tidak sempurna dan tidak 
 ## soal 3.f
 kesimpulannya yaitu jika kita melihat dari uji nilai kritikal akan tampak perbedaan rata-rata antar variance dan tidak tampak jika dilihat dari uji statistik. 
 
+## soal 4.a 
+```python
+my_data <- read.delim(file.choose(data))
+
+my_data$Group <- as.factor(my_data$Group)
+my_data$Group = factor(my_data$Group, labels = c("grup1", "grup2", "grup3"))
+
+grup1 <- subset(my_data, Group == "grup1")
+grup2 <- subset(my_data, Group == "grup2")
+grup3 <- subset(my_data, Group == "grup3")
+
+qqnorm(grup1$Length)
+qqnorm(grup2$Length)
+qqnorm(grup3$Length)
+```
+dengan menggunakan fungsi qqnorm sehingga didapati gambar plot juantil sebagai berikut :
+<img width="349" alt="image" src="https://user-images.githubusercontent.com/103352161/170879157-40eecdd9-199e-45b6-9c58-b013f574406c.png">
+
+<img width="339" alt="image" src="https://user-images.githubusercontent.com/103352161/170879207-0c7f24a6-69cf-45ca-8690-e04b0234fb50.png">
+
+<img width="360" alt="image" src="https://user-images.githubusercontent.com/103352161/170879237-8f9eecbd-9829-4920-8b8b-55862f90210a.png">
+
+tidak  adanya outlier utama dalam homogenitas varians.
+
+## soal 4.b
+
+## soal 4.c
+
+
 
 
 

@@ -45,6 +45,12 @@ Jelaskan maksud dari output yang dihasilkan!
 
 dari soal diketahui bahwa n=100, rata-rata(x)=23500, standar deviasi(σ)=3900 sehingga H0 : μ = 20000
 
+## soal 2.c
+Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
+
+jawaban :
+dari output p-value yang dihitung bahwa nilai dari hasil bagi nilai sample dengan standard deviasinya yaitu 8,97 dengan (p-value) 0. sehingga benar bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun nya.
+
 
 
 

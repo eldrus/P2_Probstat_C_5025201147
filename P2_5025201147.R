@@ -46,5 +46,19 @@ qqnorm(grup3$Length)
 ##b
 bartlett.test(Length ~ Group, data = my_data)
 
+## soal 5.a
+install.packages("multcompView")
+library(readr)
+library(ggplot2)
+library(multcompView)
+library(dplyr)
+
+GTL <- read_csv("C:/Users/ASUS/Downloads/GTL.csv")
+head(GTL)
+
+str(GTL)
+
+qplot(x = Temp, y = Light, geom = "point", data = GTL) +
+  facet_grid(.~Glass, labeller = label_both
 
 

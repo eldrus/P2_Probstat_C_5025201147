@@ -62,6 +62,25 @@ sehingga didapati hasil sebagai berikut:
 
 <img width="512" alt="image" src="https://user-images.githubusercontent.com/103352161/170872130-91167c51-8126-42d2-99ef-8286bbf7889c.png">
 
+## soal 3.c
+Lakukan Uji Statistik (df =2)!
+dengan menggunakan library `mosaic` menguji df=2 . didapati hasil sebagai berikut:
+<img width="363" alt="image" src="https://user-images.githubusercontent.com/103352161/170875825-46dea1ba-5e0d-41d1-94aa-05f907686b06.png">
+
+## soal 3.d
+mencari Nilai Kritikal.
+dengan memasukkan nilai ` (α= 0.05)` dan `df=2` menggunakan fungsi `qchisq` sehingga didapati hasil nya yaitu : 5,99 .
+
+hasil :
+
+<img width="354" alt="image" src="https://user-images.githubusercontent.com/103352161/170876318-5848ff47-8da0-4326-ba53-c78b111e3605.png">
+
+## soal 3.e
+
+Kondisi ketidakpastian dicirikan dengan informasi yang tidak sempurna dan tidak ada probabilitas suatu peristiwa. sehingga dala  teorinya pengambilan keputusan berada dibawah ketidakpastian. untuk mengambil keputusan dapat dilakukan dengan uji coba yaitu menggunakan t.test
+
+## soal 3.f
+kesimpulannya yaitu jika kita melihat dari uji nilai kritikal akan tampak perbedaan rata-rata antar variance dan tidak tampak jika dilihat dari uji statistik. 
 
 
 

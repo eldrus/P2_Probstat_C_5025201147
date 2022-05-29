@@ -51,6 +51,18 @@ Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 jawaban :
 dari output p-value yang dihitung bahwa nilai dari hasil bagi nilai sample dengan standard deviasinya yaitu 8,97 dengan (p-value) 0. sehingga benar bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun nya.
 
+## soal3b.
+Hitung Sampel Statistik!
+
+dengan menggunakan 
+``` 
+tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27, alternative = "greater", var.equal = TRUE)
+```
+sehingga didapati hasil sebagai berikut:
+
+<img width="512" alt="image" src="https://user-images.githubusercontent.com/103352161/170872130-91167c51-8126-42d2-99ef-8286bbf7889c.png">
+
+
 
 
 

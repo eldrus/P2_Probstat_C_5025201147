@@ -29,4 +29,22 @@ plotDist(dist='t',df=2,col='blue')
 qchisq(p=0.05, df=2, lower.tail = FALSE)
 
 ## soal 4
+# a)
+my_data <- read.delim(file.choose(data))
+
+my_data$Group <- as.factor(my_data$Group)
+my_data$Group = factor(my_data$Group, labels = c("grup1", "grup2", "grup3"))
+
+grup1 <- subset(my_data, Group == "grup1")
+grup2 <- subset(my_data, Group == "grup2")
+grup3 <- subset(my_data, Group == "grup3")
+
+qqnorm(grup1$Length)
+qqnorm(grup2$Length)
+qqnorm(grup3$Length)
+
+##b
+bartlett.test(Length ~ Group, data = my_data)
+
+
 

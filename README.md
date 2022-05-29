@@ -107,6 +107,15 @@ dengan menggunakan fungsi qqnorm sehingga didapati gambar plot juantil sebagai b
 tidak  adanya outlier utama dalam homogenitas varians.
 
 ## soal 4.b
+carilah atau periksalah Homogeneity of variances nya , Berapa nilai p yang
+didapatkan? , Apa hipotesis dan kesimpulan yang dapat diambil ?
+
+menggunakan bartlett.test didapati bahwa nilai yang didapati yaitu : 0,43 . Karena p lebih dari nilai signifikan, maka h0 diterima.
+hasil :
+<img width="421" alt="image" src="https://user-images.githubusercontent.com/103352161/170879824-eb53444f-962a-4f1f-8c9e-d58d5a4a012e.png">
+
+
+
 
 ## soal 4.c
 
